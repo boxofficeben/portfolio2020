@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #000;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+color: #fff;
+}
+
+a:visited {
+  color: #8C9CFF;
+}
+
+.webpage-link{
+	color:#000;
+	padding:0;
+	text-transform: none;
+}
+
+.webpage-link:hover{
+	color:#D3D3D3;
+	text-decoration: none;
+}
+
+.webpage-link:visited{
+	color:#000;
+	padding:0;
+	text-transform: none;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.display-1{
+	color:#fff;
+	font-weight: bold;
+}
+
+.lead{
+	color:#fff;
+	font-weight: bold;
+}
+
+.jumbotron {
+	background-image: url("../images/brooklynbridge.jpg");
+	background-size: cover;
+	background-position: center;
+	height:500px;
+}
+
+.img-fluid{
+	width:250px;
+	height:250px;
+}
+
+/* Testimonial Section */
+.testimonial{
+	width:100%;
+}
+.testimonial-wrapper{
+	width:80%;
+	margin:auto;
+	padding-bottom:10px;
+}
+
+
+  /* Small devices (tablets, 768px and up) */
+  @media (max-width: 440px) {
+    .display-1 {
+     font-size: 64px;
+     text-align: center;
+ 	}
+
+ 	.display-5{
+ 		font-size: 1.5rem;
+ 		text-align: center;
+ 	}
+
+
+  }
+
+@media (min-width: 768px){
+	.card-text{
+		font-size: 12px;
+	}
+}
